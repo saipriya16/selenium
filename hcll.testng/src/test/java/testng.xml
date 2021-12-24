@@ -1,0 +1,13 @@
+<suite name="Test-Suite" >
+   <test name="ToolsQA" >
+   <groups>
+   <dependencies> 
+   <group depends-on="openbrowser" name="login"></group>
+   <group depends-on="login" name="view"></group>
+   </dependencies>
+   </groups>
+       <classes> 
+          <class name="dependsongroup " />
+       </classes>
+   </test>
+ </suite>
